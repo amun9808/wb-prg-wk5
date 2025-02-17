@@ -1,0 +1,5 @@
+res.cookie('token', jwtToken, {
+  httpOnly: true,
+  secure: true,  // Use only in HTTPS
+  sameSite: 'Strict'
+});
