@@ -1,0 +1,2 @@
+const salt = bcrypt.genSaltSync(12); // Increase salt rounds
+const hashedPassword = bcrypt.hashSync(password, salt);
